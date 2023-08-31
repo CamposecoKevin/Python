@@ -4,6 +4,8 @@ print(type(set_contries))
 print(set_contries)
 
 # conjuntos solo cuenta unicos
+#usar set con función de conjunto
+
 numbers = [1, 1, 1, 2, 2, 3, 4, 5, 6, 6, 7, 8, 9]
 set_number = set(numbers)
 print(set_number)
