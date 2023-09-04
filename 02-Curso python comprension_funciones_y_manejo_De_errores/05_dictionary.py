@@ -29,9 +29,3 @@ print(list(zip(name, year)))
 
 
 new_dict = {name: year for (name, year) in zip(name, year)}
-
-
-
-
-
-

@@ -1,3 +1,4 @@
+
 import random
 countries = {"col", "mex", "bol", "per", "gt"}
 population = {}
