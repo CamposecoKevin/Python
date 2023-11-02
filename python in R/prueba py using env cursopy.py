@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-
+import numpy as np
 eje_X =['Py','R','Node']
 
 eje_y = [50,20,35]
@@ -14,5 +14,7 @@ plt.show()
 plt.figure()
 
 
-import numpy as np
+df_
+
+
 
