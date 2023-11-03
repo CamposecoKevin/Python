@@ -1,4 +1,5 @@
-<nav>
+
+<!-- <nav>
   <ul>
     <img src="{{ url_for('static', filename= 'images/KevinProfil.png')}}" alt="Foto Kevin">
     <li><a href="{{url_for('index')}}"> Ir a inicio</a></li>
@@ -6,4 +7,33 @@
       <a href="https://kevincamposeco.com" target="_blank" >Ir a KevinCamposeco</a>
     </li>
   </ul>
-</nav>
+</nav> -->
+
+
+<div class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+      <div class="navbar-header">
+          <button type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="{{ url_for('index') }}">
+              <img src="{{ url_for('static', filename='images/KevinProfil.png') }}"
+                   style="max-width: 48px"
+                   alt="Kevin Camposeco">
+          </a>
+      </div>
+
+      <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+              <li><a href="{{ url_for('index') }}">Inicio</a></li>
+              <li><a href="https://kevincamposeco.com" target="_blank">kevincamposeco</a></li>
+          </ul>
+      </div>
+  </div>
+</div>
