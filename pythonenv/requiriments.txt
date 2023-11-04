@@ -2,3 +2,4 @@ flask
 flask_bootstrap
 flask-wtf
 flask-testing==0.8.1
+blinker
