@@ -6,5 +6,6 @@ reticulate::conda_python('pykevin')
 reticulate::repl_python()
 
 
-#to install any dependency
+#to install any dependency, its necesary to realiza after to inicializate py
 py_install("pandas")
+reticulate::py_install("matplotlib.pyplot")

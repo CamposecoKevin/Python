@@ -10,7 +10,6 @@ plt.ylabel("Cantidad de ususario")
 plt.xlabel("Lenguajes de programación")
 plt.title("Usuaarios de lenguaje de programación")
 
-plt.show()
 plt.figure()
 
 
