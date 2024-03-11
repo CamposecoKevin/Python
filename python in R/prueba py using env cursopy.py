@@ -1,19 +1,20 @@
 import matplotlib.pyplot as plt
 import numpy as np
-eje_X =['Py','R','Node']
+eje_X1 =['Py','R','Node']
 
-eje_y = [50,20,35]
+eje_y2 = [50,20,35]
 
-plt.bar(eje_X, eje_y)
+grap_lenguajeprogrami= plt.bar(eje_X1, eje_y2)
 
 plt.ylabel("Cantidad de ususario")
 plt.xlabel("Lenguajes de programación")
 plt.title("Usuaarios de lenguaje de programación")
 
+#para mostrar la gráfica
+plt.show(grap_lenguajeprogrami)
+
+
+#para identificar el tamaño
 plt.figure()
-
-
-df_
-
 
 
