@@ -16,5 +16,3 @@ plt.show(grap_lenguajeprogrami)
 
 #para identificar el tamaño
 plt.figure()
-
-
