@@ -1,6 +1,7 @@
 import pandas as pd
 import openpyxl as px
 import matplotlib.pyplot as plt
+import seaborn as sb
 
 data1 = pd.read_excel('C:/Users/Kevin Camposeco/Downloads/Reporte Asistencias por Organización.xlsx')
 
@@ -48,7 +49,11 @@ data1.plot(kind = 'scatter', x = 'No. De Asistencias', y = 'No. De Asociados')
 plt.show()
 
 
+#histograma
 
+data1["Siglas"].plot(kind = "hist")
+data1.plot(kind = 'hist')
+plt.show()
 
 
 

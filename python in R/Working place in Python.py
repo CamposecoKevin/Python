@@ -1,8 +1,7 @@
 #working in env called pykevin
-reticulate::conda_python('pykevin')
+reticulate::conda_python('py32')
 
 #creat enviroment py
-
 reticulate::repl_python()
 
 
