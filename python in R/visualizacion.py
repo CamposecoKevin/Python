@@ -91,6 +91,16 @@ plt.show()
 
 #subplots
 
+tips = sb.load_dataset('tips')
+#ver datos guardados
+tips.info()
+pd.DataFrame(tips)
 
 
+#ver las correlaciones
+plt.clf()
+sb.heatmap(tips.corr(numeric_only=True), annot=True, cmap= "coolwarm", linewidths=6)
+plt.show()
 
+
+tips.corr(numeric_only=True)
